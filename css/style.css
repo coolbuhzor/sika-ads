@@ -1,0 +1,66 @@
+*{
+box-sizing: border-box;
+overflow-x: none;
+}
+
+root {
+--balsamiq: 'Balsamiq Sans', cursive;
+--roboto: 'Roboto', sans-serif;
+--mono: 'Roboto Mono', monospace;
+}
+
+/* tags */
+h1, h2 {
+font-family:'Balsamiq Sans', cursive;;
+color:green !important;
+}
+
+img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.card-img {
+    width: 22rem;
+
+}
+
+
+h3, h4{
+    /* font-family: var(--mono); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header section */
+
+.brand-name {
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+}
+.summary {
+    line-height: 1.5;
+
+}
+
+
+/* testimonial */
+.testimonial {
+    height: 50%;
+
+}
+.carrot{
+ padding: 7% 5%;
+}
+
+.testimonial-image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+/* footer */
+.foot {
+padding: 5% 10%;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
